@@ -1,0 +1,12 @@
+{
+    "name": "departamentos-buenos-aires",
+    "version": "1.0.0",
+    "description": "A description of your project",
+    "main": "index.html",
+    "scripts": {
+      "deploy": "firebase deploy" 
+    },
+    "author": "ivo capezzuto",
+    "license": "MIT"
+  }
+  

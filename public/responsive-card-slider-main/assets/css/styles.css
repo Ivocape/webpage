@@ -5,14 +5,14 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(38, 92%, 58%);
-  --first-color-light: hsl(38, 100%, 78%);
-  --first-color-alt: hsl(32, 75%, 50%);
-  --second-color: hsl(195, 75%, 52%);
-  --dark-color: hsl(212, 40%, 12%);
+  --first-color: hsl(0, 87%, 94%);
+  --first-color-light: hsl(0, 0%, 100%);
+  --first-color-alt: hsl(315, 44%, 78%);
+  --second-color: hsla(355, 86%, 45%, 0.74);
+  --dark-color: hsl(299, 35%, 55%);
   --white-color: hsl(212, 4%, 95%);
-  --body-color: hsl(212, 42%, 15%);
-  --container-color: hsl(212, 42%, 20%);
+  --body-color: hsl(240, 12%, 89%);
+  --container-color: hsl(0, 0%, 100%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -79,14 +79,13 @@ img {
 .card__data {
   background-color: var(--container-color);
   padding: 1.5rem 2rem;
-  border-radius: 1rem;
+  border-radius: 1rem;  
   text-align: center;
   position: relative;
   z-index: 10;
 }
-
 .card__img {
-  width: 180px;
+  width: 180px; /* imagen de la tarjeta*/
   margin: 0 auto;
   position: relative;
   z-index: 5;

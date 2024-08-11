@@ -9,6 +9,10 @@
 	margin-bottom: 50px;
 	position: relative;
 }
+.normal_back{
+background-color: rgb(181, 211, 243);	
+
+}
 
 /* For styling NavBar */
 .navbar.navbar-expand-lg.navbar-light li a{
@@ -17,6 +21,7 @@
     padding: 14px 16px;
     font-size: 15px;
     font-weight: 500;
+	background-color: rgba(15, 190, 181, 0.349);
 }
 
 .navbar.navbar-expand-lg.navbar-light li a:hover {
